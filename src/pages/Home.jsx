@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
      <div className=" flex justify-center items-center min-h-screen ">
-      <div className="w-[370px] h-[800px] bg-gray-100 flex  flex-col-reverse">
+      <div className="md:w-[370px]  w-[440px] md:h-[785px] h-[935px] bg-gray-100 flex  flex-col-reverse">
         <div className="mx-5 mb-7 space-y-3">
         <h1 className="font-bold text-2xl">Welcome to PopX</h1>
         <p className="text-gray-600 text-base">Lorem ipsum dolor sit amet,<br/> consectetur adipisicing elit.</p>

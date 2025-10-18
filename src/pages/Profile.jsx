@@ -3,7 +3,7 @@ import {Camera} from 'lucide-react';
 const Profile = () => {
   return (
     <div className=" flex justify-center items-center min-h-screen ">
-      <div className="w-[370px] h-[800px] bg-gray-100 ">
+      <div className="md:w-[370px]  w-[440px] md:h-[785px] h-[935px] bg-gray-100 ">
         <h1 className=" px-5 pt-8 pb-3 text-xl  bg-white text-gray-900 ">
               Account Settings
            </h1>
