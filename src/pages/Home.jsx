@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-     <div className=" flex justify-center items-center min-h-screen ">
-      <div className="sm:w-[370px] w-[390px]   sm:h-[780px] h-[790px] bg-green-400 flex  flex-col-reverse">
+     <div className="flex justify-center items-center min-h-screen bg-gray-100">
+      <div className="w-full max-w-md h-screen bg-gray-100 flex flex-col justify-end relative overflow-hidden">
         <div className="mx-5 mb-7 space-y-3">
         <h1 className="font-bold text-2xl">Welcome to PopX</h1>
         <p className="text-gray-600 text-base">Lorem ipsum dolor sit amet,<br/> consectetur adipisicing elit.</p>
